@@ -1,1 +1,32 @@
-/*  your css code here. If applicable */
+body {
+    background-image: url('https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background */
+    margin: 0;
+    font-family: Arial, sans-serif; /* Optional: Adds a nice font */
+}
+
+#band {
+    border: 12px solid lightgrey;
+    background-color: white;
+    text-align: center;
+    margin: 50px auto;
+	margin-left:100px;
+	margin-right:100px;
+    padding: 20px;
+    font-size: 16px;
+	margin-bottom:-15px;
+	margin-top:-15px;
+    /* Removes default bullet points */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+    max-width: 600px; /* Restrict the width for better layout */
+  
+}
+
+#band li {
+    padding: 10px 0;
+    margin: 5px 0;
+}
+
+
