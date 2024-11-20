@@ -6,7 +6,7 @@ body {
     font-family: Arial, sans-serif; /* Optional: Adds a nice font */
 }
 
-#band {
+#bands {
     border: 12px solid lightgrey;
     background-color: white;
     text-align: center;
@@ -24,7 +24,7 @@ body {
   
 }
 
-#band li {
+#bands li {
     padding: 10px 0;
     margin: 5px 0;
 }

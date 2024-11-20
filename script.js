@@ -36,9 +36,9 @@ function compareBands(a, b) {
 var sortedBands = bands.slice().sort(compareBands); // Sort the array
 
 // Add sorted bands to the UL
-var bandList = document.getElementById('band'); // Get the UL element by ID
-sortedBands.forEach(function(band) { // Use a regular function instead of an arrow function
+var bandList = document.getElementById('bands'); // Get the UL element by ID
+sortedBands.forEach(function(bands) { // Use a regular function instead of an arrow function
   var li = document.createElement('li'); // Create a new <li> element
-  li.textContent = band; // Set the band name as the content of the <li>
+  li.textContent = bands; // Set the band name as the content of the <li>
   bandList.appendChild(li); // Append the <li> to the UL
 });
